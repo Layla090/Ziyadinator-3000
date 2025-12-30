@@ -14,17 +14,17 @@ function sendMessage() {
     //<div> is for styling, in this case, the chat bubble.
     //${} is for inserting variables into strings (strings are anything inside quotes)
 //+= means add on to what's already there
-    let reply = "Thank you for your interest in Visi! How can I help you today?";
+    let reply = "type into the ziyadnator mwahaha";
     if (userText.toLowerCase().includes("hello")) {
-        reply = "Hi, welcome to Visi! How can I help you today?";
+        reply = "hi";
     }
-    if (userText.toLowerCase().includes("founded")) {
-        reply = "Georgetown Visitation was founded in 1799. It is one of the oldest Catholic schools for girls in the US.";
+    if (userText.toLowerCase().includes("fah")) {
+        reply = "FAHHHHHHHHH";
     }
-    if (userText.toLowerCase().includes("Technology")) {
-        reply = "Our curriculum includes a 1:1 iPad system which the student would buy then use throughout their years. We also have computer labs, the MacNabb Lab, and a robust STEM program.";}
-    if (userText.toLowerCase().includes("admission")) {
-        reply = "For admission inquiries, please visit our admissions page or contact our admissions office directly.";
+    if (userText.toLowerCase().includes("color")) {
+        reply = "burgandy...i cant spell that";}
+    if (userText.toLowerCase().includes("dog")) {
+        reply = "bark, BARK BARK, BARK";
     }
     chatWindow.innerHTML += `<div class="bot">${reply}</div>`;
     input.value = "";
